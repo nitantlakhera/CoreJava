@@ -5,9 +5,11 @@ public static void main(String args []) {
 	int number =371 ;
 	int count = 0;
 	int originalNumber = number ;
-	for(; originalNumber !=0; originalNumber =originalNumber/10 ) {
+	
+	for(; originalNumber !=0; originalNumber = originalNumber/10 ) {
 		 count ++;
 	}
+	
 	System.out.println("count is " + count);
 	int  sum =0 ;
 	originalNumber = number ;

@@ -8,6 +8,5 @@ public class pair_or_squre_cube {
 	    	charcount[s1.charAt(i) - 'a']++;
 	    	System.out.println(charcount[s1.charAt(i)-'a']);
 	    }
-   }
-	
+   }	
 }

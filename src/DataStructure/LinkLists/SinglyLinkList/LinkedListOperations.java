@@ -17,9 +17,9 @@ public class LinkedListOperations {
   	    	 tempNode= tempNode.next;
   	     }
   	     tempNode.next = newNode;
-  	 }
+  	   }
   	}
-    
+
 	public void printList() {
 	  	   Node n = head;
 	  	   System.out.print(" " + head);
@@ -28,6 +28,7 @@ public class LinkedListOperations {
 	  		   n = n.next;
 	  	   }
 	  }
+	
 	public void insertAtStart(int data) {
 		  Node newNode = new Node (data);
 		  if(head == null) {
@@ -37,7 +38,7 @@ public class LinkedListOperations {
 			  head = newNode;
 			  head.next = temp;
 		  }
-	  }
+	}
 	
 	public void inserAttheEnd(int data) {
            Node newNode = new Node(data);

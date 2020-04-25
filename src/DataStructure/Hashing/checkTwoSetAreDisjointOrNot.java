@@ -13,12 +13,14 @@ public class checkTwoSetAreDisjointOrNot {
     	 System.out.println("Disjoint");
      }
    }
-   
+
    public static boolean checkWhetherElementIsPresentOrNot( int array1[] , int array2 [] ) {
 	   HashSet<Integer> hash = new HashSet<Integer>();
+	   
 	   for(int i =0 ; i<array1.length ; i++) {
 		   hash.add(array1[i]);
 	   }
+	   
 	   for(int i =0 ; i<array2.length ; i++) {
 		   if(hash.contains(array2[i])) {
 			   return true;

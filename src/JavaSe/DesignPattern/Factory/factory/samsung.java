@@ -6,5 +6,4 @@ public class samsung implements mobiles{
 	public void show() {
 		System.out.println("Object for Samsung mobile");
 	}
-
 }

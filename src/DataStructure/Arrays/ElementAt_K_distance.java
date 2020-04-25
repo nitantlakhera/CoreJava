@@ -7,8 +7,7 @@ public class ElementAt_K_distance {
 	  search(array , k) ;
   }
   public static void search(int array[] , int key) {
-	  for(int i=0; i<array.length ; i++) {
-	  }
+	 
   }
 }
 

@@ -6,6 +6,7 @@ public class fibbonachi {
     	  System.out.print(" "+new fibbonachi().print(i));
       }
     }
+    
     public int  print(int n ) {
     	 if(n == 0) {
     		 return 0;
