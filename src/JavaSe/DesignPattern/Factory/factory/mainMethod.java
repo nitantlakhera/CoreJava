@@ -2,7 +2,7 @@ package JavaSe.DesignPattern.Factory.factory;
 
 public class mainMethod {
    public static void main(String args[]) {
-	   mobiles sony = factoryClass.getMobiles("sony");
+	   mobiles sony = factoryClass.getMobiles("samsung");
 	   sony.show();
 	   mobiles samsung = factoryClass.getMobiles("samsung");
 	   samsung.show();

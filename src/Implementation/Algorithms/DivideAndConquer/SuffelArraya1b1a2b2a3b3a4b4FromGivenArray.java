@@ -1,6 +1,7 @@
 package Implementation.Algorithms.DivideAndConquer;
 
 public class SuffelArraya1b1a2b2a3b3a4b4FromGivenArray {
+  
   public static void main(String args[]) {
 	  int array[] =  {1,2,3,4,5,6,7,8};
 	  suffel(array, 0, array.length-1);

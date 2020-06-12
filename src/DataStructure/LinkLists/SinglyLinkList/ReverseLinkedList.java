@@ -32,5 +32,5 @@ public static void print(Node head) {
 		System.out.print(head.data +" ");
 		head = head.next;
 	}
-}
+  }
 }

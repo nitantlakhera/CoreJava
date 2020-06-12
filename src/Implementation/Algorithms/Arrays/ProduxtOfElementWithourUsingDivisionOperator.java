@@ -6,6 +6,7 @@ public class ProduxtOfElementWithourUsingDivisionOperator {
 		int array[] = {1,2,3,4,5,6};
 		product(array);
 	}
+	
 	public static void product(int array[]) {
 	   int tempArray[] = new int[array.length];
 	   int temp = 1;

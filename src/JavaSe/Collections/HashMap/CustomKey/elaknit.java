@@ -8,10 +8,12 @@ public class elaknit {
 	this.name = name;
 	this.empId = empId;
 }
+  
 @Override
 public String toString() {
 	return "elaknit [name=" + name + ", empId=" + empId + "]";
 }
+
 @Override
 public int hashCode() {
 	final int prime = 31;
@@ -20,6 +22,7 @@ public int hashCode() {
 	result = prime * result + ((name == null) ? 0 : name.hashCode());
 	return result;
 }
+
 @Override
 public boolean equals(Object obj) {
 	if (this == obj)
@@ -37,6 +40,5 @@ public boolean equals(Object obj) {
 	} else if (!name.equals(other.name))
 		return false;
 	return true;
-}
-
+   }
 }

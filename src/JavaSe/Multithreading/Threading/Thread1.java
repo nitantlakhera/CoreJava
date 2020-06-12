@@ -1,6 +1,6 @@
 package JavaSe.Multithreading.Threading;
 
-public class Thread1 extends Thread{
+public class Thread1 extends Thread {
  	public void run() {
       System.out.println(Color.ANSI_BLUE+"Running from the thread " + currentThread().getName()  );		
 	  try {

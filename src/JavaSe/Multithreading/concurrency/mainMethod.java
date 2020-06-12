@@ -11,6 +11,7 @@ package JavaSe.Multithreading.concurrency;
 			account.withdraw(300);
 		}
 	});
+	
 	Thread thread2 = new Thread(new Runnable() {
 		@Override
 		public void run() {
